@@ -1,0 +1,323 @@
+/*--------------------------------------------------------*\
+    general
+\*--------------------------------------------------------*/
+
+@media screen and (min-width: 1800px) {
+    .wrapper {
+        max-width: 1600px;
+        margin: auto;
+    }
+}
+
+/*--------------------------------------------------------*\
+    header
+\*--------------------------------------------------------*/
+
+@media screen and (max-width: 1350px) {
+    #header .logo > .content {
+        min-width: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1350px) and (min-width: 1100px) {
+    #header .logo img {
+        max-width: 450px;
+    }
+
+    #header .logo .specs {
+        font-size: 25px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    #header .logo .specs img {
+        max-width: 90px;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 64em) {
+    #header .logo img {
+        max-width: 400px;
+    }
+
+    #header .logo .specs {
+        font-size: 23px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    #header .logo .specs img {
+        max-width: 80px;
+    }
+}
+
+@media only screen and (max-width: 64em) {/* md */
+    #header .image {
+        order: 2;
+        margin-top: 50px;
+    }
+
+    #header .logo .specs {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    #header .logo img {
+        max-width: 400px;
+    }
+
+    #header .logo .specs {
+        font-size: 23px;
+        margin-top: 30px;
+    }
+
+    #header .logo .specs img {
+        max-width: 80px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #header .logo img {
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #header .logo .specs {
+        font-size: 19px;
+    }
+
+    #header .logo .specs .text {
+        width: calc(100% - 90px);
+    }
+
+    #header .logo .specs img {
+        max-width: 70px;
+    }
+
+    #header .image {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #header .logo .specs img {
+        display: none;
+    }
+
+    #header .logo .specs {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #header .image {
+        margin-top: 20px;
+    }
+}
+
+
+/*--------------------------------------------------------*\
+    only-text-banner
+\*--------------------------------------------------------*/
+
+@media only screen and (max-width: 500px) {
+    #only-text-banner .row1 {
+        font-size: 32px;
+    }
+
+    #only-text-banner .row1 img {
+        max-height: 55px;
+    }
+}
+
+
+/*--------------------------------------------------------*\
+    opinions
+\*--------------------------------------------------------*/
+
+@media screen and (max-width: 800px) {
+    #opinions .carousel-cell {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #opinions {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+
+/*--------------------------------------------------------*\
+    reviews
+\*--------------------------------------------------------*/
+
+@media screen and (max-width: 800px) {
+    #gallery .reviews .grid-item {
+        width: 50%;
+    }
+}
+
+
+/*--------------------------------------------------------*\
+    secureShopping
+\*--------------------------------------------------------*/
+
+@media only screen and (max-width: 64em) {/* sm */
+    #secureShopping .opt-con {
+        width: 100%;
+    }
+
+    #secureShopping ul li img {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
+
+
+/*--------------------------------------------------------*\
+    order
+\*--------------------------------------------------------*/
+
+@media only screen and (max-width: 550px) {
+    #countdown .container .content .countdown {
+        margin: 0 0 50px 0;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    #order > .container {
+        padding: 50px 0 0 0;
+    }
+
+    #countdown .container .content .text {
+        border-left: none;
+        text-align: center;
+    }
+}
+
+
+/*--------------------------------------------------------*\
+    box-banner
+\*--------------------------------------------------------*/
+
+@media only screen and (max-width: 64em) {/* md */
+    #box-banner {
+        padding-bottom: 30px;
+        padding-top: 80px;
+    }
+
+    #box-banner .innerTitle {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    #box-banner .subtitle {
+        max-width: 600px;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    #box-banner li .description .text {
+        min-height: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #box-banner {
+        padding-bottom: 20px;
+        padding-top: 50px;
+    }
+}
+
+
+/*--------------------------------------------------------*\
+    text-image-banner
+\*--------------------------------------------------------*/
+
+@media only screen and (max-width: 1150px) {
+    #text-image-banner .image {/* a capo */
+        min-width: 100%;
+        order: 2;
+        margin-top: 30px;
+    }
+
+    #text-image-banner .image img {
+        max-width: 500px;
+        width: 100%;;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #text-image-banner .text {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+}
+
+
+/*--------------------------------------------------------*\
+    big-g
+\*--------------------------------------------------------*/
+
+@media only screen and (max-width: 64em) {/* md */
+    #big-g .feature .center-text {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    #big-g .main-title {
+        margin-bottom: 45px;
+    }
+}
+
+@media only screen and (max-width: 48em) {/* sm */
+    #big-g .main-title {
+        margin-bottom: 0;
+    }
+
+    #big-g .feature-s2 .feature-item,
+    #big-g .feature-s2 .feature-item:first-child {
+        margin-top: 60px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+
+/*--------------------------------------------------------*\
+    video
+\*--------------------------------------------------------*/
+
+@media only screen and (max-width: 480px) {
+    #video .container {
+        width: 100%;
+    }
+}
+
+
+/*--------------------------------------------------------*\
+    slider
+\*--------------------------------------------------------*/
+
+@media only screen and (max-width: 1280px) {
+    #slider .text .title {
+        font-size: 19px;
+        line-height: 31px;
+    }
+}
+
+@media only screen and (max-width: 64em) {/* md */
+    #slider .text .title {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 20px;
+        line-height: 33px;
+    }
+}
